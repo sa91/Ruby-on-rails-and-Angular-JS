@@ -1,0 +1,6 @@
+{
+	"proxy": "http://proxy.iiit.ac.in:8080",
+	"https-proxy" : "http://proxy.iiit.ac.in:8080",
+	"directory":"vendor/assets/bowers_components",
+	"strict-ssl":"false"
+}

@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>My Angular App!</title>
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+	<script src="app.js"></script>
+	<script type="text/ng-template"  src="home.html"></script>-->
+	<%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body ng-app="flapperNews">
+	<p class="notice"><%= notice %></p>
+	 <p class="alert"><%= alert %></p>
+	<div >
+     <ui-view></ui-view>
+     ONE MORE
+     <ui-view></ui-view>
+   </div>
+	
+	</body>
+</html>

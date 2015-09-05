@@ -1,0 +1,15 @@
+<div class="page-header">
+				<h1>Issue Tracker</h1>
+			</div>
+			<table>
+			<tr>
+			 <th>Project Name</th><th>Project owner</th><th>New Issue</th>
+		</tr>
+		<tr ng-repeat="project  in projects">
+				<td>{{project.title}}</td><td>{{project.owner}}</td><td>{{project.issue}}</td>
+		</tr>
+		</table>
+		<form ng-submit="addProject()">
+			<input type="text" ng-model="title"></input>
+			<button type="submit">Add Project</button>
+		</form>
