@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 Let us check for conflicts
+=======
+confilcts.txt
+
+:Author: sp_computers
+:Email: sp_computers@satyam
+:Date: 2015-09-17 22:55
+
+dkldhklashklahsklfhlaskhfklsahfklsaklfhklsahfklahlk
+>>>>>>> 512afdacac6221ba102c0d089882bbc1f5e6a338
